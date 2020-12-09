@@ -17,7 +17,6 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <DatePicker />
         <DatePicker Margin="0,0,2.5,0" 
                     SelectedDateFormat="Short" 
                     SelectedDate="{Binding ElementName=customDateTimePicker, Path=SelectedDateTime, Mode=TwoWay, Converter={StaticResource DateConverter}}" />
